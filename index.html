@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources/style.css" rel="stylesheet">
+    <title>Dream Game</title>
+</head>
+<body>
+    <main>
+        <div class="progress-button-container">
+            <h2 class="phase-title"></h2>
+            <button id="progress-button" class="progress-button">Start Game</button>
+            <input type="checkbox" id="nextPhase-button" >
+            <label for="nextPhase-button" class="progress-button">Next Phase</label>
+            <div class="dialogue-overlay">
+                <div class="dialogue-box">
+                    <p>Do you want to move on to the next phase?</p>
+                    <div class="dialogue-box-button">
+                        <button id="cancelPhase-button">Cancel</button>
+                    </div>
+                    <div class="dialogue-box-button">
+                        <button id="proceedPhase-button">Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="turn-counter">
+            <div class="turn-counter-container">
+                <div class="turn-counter-inner">
+                    <span>1</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>2</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>3</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>4</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>5</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>6</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>7</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>8</span>
+                </div>
+                <div class="turn-counter-inner">
+                    <span>9+</span>
+                </div>
+            </div>
+        </div>    
+    </main>
+    
+</body>
+<script src="resources/index.js"></script>
+</html>
